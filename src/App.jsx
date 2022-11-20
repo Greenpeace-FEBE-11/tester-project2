@@ -12,9 +12,9 @@ import PenanggulanganPage from './Pages/PenanggulanganPage'
 import './css/readmore.css'
 import Testing from './Components/Testing'
 // komen dibawah ini
-import LoginPage from './Pages/LoginPage'
-import RegisterPage from './pages/RegisterPage'
-import './css/style-penanggulangan.css'
+// import LoginPage from './Pages/LoginPage'
+// import RegisterPage from './pages/RegisterPage'
+// import './css/style-penanggulangan.css'
 
 function App() {
 
@@ -24,11 +24,11 @@ function App() {
       {/* <Testing/> */}
       <Routes>
         {/* komen rute dibawah */}
-      <Route path="/" element={<LoginPage/>}/>
+      {/* <Route path="/" element={<LoginPage/>}/> */}
         <Route path="/" element={<HomePage/>} />
         <Route path='/penanggulangan' element={<PenanggulanganPage/>}/>
         {/* komen regis dibawah ini coba */}
-        <Route path="/register" element={<RegisterPage/>}/>
+        {/* <Route path="/register" element={<RegisterPage/>}/> */}
       </Routes>
       <Footer/>
     </>
